@@ -29,7 +29,7 @@ The Garbage Feedback Management System is a platform designed to compile, organi
 
 ![PostMan Github](https://github.com/user-attachments/assets/3381c639-715f-40b9-85d3-08384553ee12)
 
-<h2 align="left">Library:</h2>
+<h2 align="left"> Library:</h2>
 
 
 - bcryptjs
@@ -45,7 +45,7 @@ The Garbage Feedback Management System is a platform designed to compile, organi
 - nodemon
 - validator
 
-<h2 align="left">Database Structure</h2>
+<h2 align="left"> Database Structure</h2>
 
 The platform will require a relational database to manage User,Doctor and Booking . Below is a proposed database structure with the key tables.
 
@@ -76,7 +76,7 @@ The platform will require a relational database to manage User,Doctor and Bookin
 
 
 
-<h2 align="left">Use Cases:</h2>
+<h2 align="left"> Use Cases:</h2>
 
 - **Feedback Submission by Users**
     - Residents that is, consumers can document issues such illegal dumping, missing pickup, or overflowing garbage cans.
@@ -95,11 +95,11 @@ The platform will require a relational database to manage User,Doctor and Bookin
 - **Eco-Friendly Engagement**
     - Users could acquire instructions on ecologically acceptable disposal techniques as well as on project policies.
 
-<h2 align="left">Development with ZenDevx:</h2>
+<h2 align="left"> Development with ZenDevx:</h2>
 
 <a href="https://www.zendevx.com/" target="blank"><img align="center" src="https://github.com/user-attachments/assets/7dd7220f-e83c-4490-9ac2-beab3bcf8c35" alt="ZenDevX" height="auto" width="auto" /></a>
 
-<h2 align="left">🐦 Connect With Me:</h2>
+<h2 align="left"> 🐦 Connect With Me:</h2>
 <a href="https://www.linkedin.com/company/zendevx/" target="blank"><img align="center" src="https://github.com/user-attachments/assets/9a6080ca-4265-43e5-8652-9454651970a9" alt="ZenDevX" height="50" width="50" /></a>
 <a href="https://www.youtube.com/@zendevx" target="blank"><img align="center" src="https://github.com/user-attachments/assets/1beefdd6-fa17-49c9-bde7-e8f30f539b96" alt="ZenDevX" height="50" width="50" /></a>
 <a href="https://x.com/IamZenDevX" target="blank"><img align="center" src="https://github.com/user-attachments/assets/f1eeb865-3d23-407a-9a2b-d76b4e85c6dd" alt="ZenDevX" height="50" width="50" /></a>
