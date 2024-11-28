@@ -1,5 +1,4 @@
-# Garbage-Feedback
-Garbage Feedback Management System
+# Garbage Feedback Management System
 <h2 align="left">Introduction:</h2>
 
 The Garbage Feedback Management System is a platform designed to compile, organize, and act upon user comments on waste management and garbage collecting rules, the Garbage Feedback Management System is a Two basic models User and Feeds which cooperate to increase service efficiency and responsibility define the system.
