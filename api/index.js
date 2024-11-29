@@ -6,6 +6,10 @@ import feedRouter from './routes/feed.route.js'
 import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 dotenv.config();
+const app=express();
+app.use(express.json());
+app.use(cookieParser());
+
 
 mongoose.connect(process.env.MONGO).then(()=>{
     console.log('connected to MongoDB!')
@@ -13,13 +17,16 @@ mongoose.connect(process.env.MONGO).then(()=>{
     console.log(err)
 });
 
-const app=express();
-app.use(express.json());
-app.use(cookieParser());
+const dbURI = `mongodb://localhost:27017/`;
 
-app.listen(3000,()=>{
-    console.log('server is runing on port 3000')
-});
+mongoose
+.connect(dbURI)
+.then(() => {
+  app.listen(3000);
+  console.log("MongoDB connected...");
+})
+.catch((err) => console.log(err));
+app.use(ErrorHandler)
 
 app.use("/api/user",userRouter)
 app.use("/api/auth",authRouter)
